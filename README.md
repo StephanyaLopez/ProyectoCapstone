@@ -30,6 +30,42 @@
 Este sistema utiliza **Machine Learning** para predecir con alta precisión la duración de categorías en torneos de Karate-Do, resolviendo el problema de retrasos acumulados (20-35%) que afectan a organizadores, atletas y familias.
 
 <!-- 🎯 -->
+## Objetivo
+
+Desarrollar un sistema basado en modelos de Machine Learning que permita estimar con precisión la duración real de las categorías de competencia. El fin es optimizar la planificación de bloques horarios, reduciendo tiempos muertos y retrasos acumulados en la logística del evento.
+
+<!-- 📚 -->
+## Estado del Arte
+
+La solución se fundamenta en la integración de:
+* **Sistemas de Apoyo a la Toma de Decisiones (DSS):** Evolución de herramientas analíticas para la gestión deportiva.
+* **Metodología CRISP-ML(Q):** Aplicación de un marco de trabajo de alta calidad para el ciclo de vida de modelos de aprendizaje automático.
+* **Modelado Predictivo:** Uso de algoritmos supervisados de ensamble (Random Forest y XGBoost) frente a las limitaciones de la estadística descriptiva tradicional.
+
+<!-- ⚙️ -->
+## Metodología y Desarrollo Técnico
+El proyecto se basa en un robusto **Pipeline de Datos** que garantiza la escalabilidad del sistema:
+
+### 1. Análisis Estadístico y Diagnóstico (EDA)
+Se identificó que los datos presentan una **Distribución Sesgada a la Derecha (Asimetría Positiva)**. Esto implica que:
+* La mayoría de las categorías son rápidas, pero las categorías masivas generan una "cola larga" que desplaza la media.
+* Se determinó que la planificación basada en promedios simples era insuficiente, justificando el uso de modelos no lineales.
+
+### 2. Pipeline de Machine Learning
+* **Preprocesamiento:** Limpieza de datos, manejo de outliers mediante el método IQR y codificación de variables categóricas (*One-Hot Encoding*).
+* **Variables Clave:** `num_competidores`, `num_combates`, `edad_max`, `modalidad`, `sexo` y `nivel`.
+* **Métricas de Éxito:** El modelo Random Forest alcanzó un **R² de 0.9814** y un **MAE de 33.81 segundos**.
+
+<!-- 📱 -->
+## 📱 Aplicación (App)
+El proyecto incluye un motor de inferencia que permite interactuar con el modelo. La aplicación facilita a los organizadores:
+* Ingreso de parámetros de competencia en tiempo real.
+* Predicción automática de duración de bloques.
+* Visualización de la importancia de variables para justificar la planificación.
+
+---
+
+<!-- 🎯 -->
 ### Problema Identificado
 
 - **Retrasos históricos:** 2-4 horas por torneo
