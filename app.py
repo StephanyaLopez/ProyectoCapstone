@@ -29,13 +29,13 @@ def cargar_modelo():
 
 try:
     modelo, columnas_train = cargar_modelo()
-    st.sidebar.success("✅ Modelo cargado exitosamente")
+    st.sidebar.success("Modelo cargado exitosamente")
 except Exception as e:
     st.error(f"❌ Error al cargar modelo: {e}")
     st.stop()
 
 # Sidebar: Configuración
-st.sidebar.header("⚙️ Configuración de Categoría")
+st.sidebar.header("Configuración de Categoría ⚙️")
 
 modalidad = st.sidebar.selectbox(
     "Modalidad", 
@@ -76,7 +76,7 @@ num_combates = st.sidebar.number_input(
 )
 
 # Botón de predicción
-if st.sidebar.button("🚀 Generar Predicción", type="primary"):
+if st.sidebar.button("Generar Predicción", type="primary"):
     
     # Crear vector de entrada
     input_data = {col: 0 for col in columnas_train}
@@ -103,19 +103,19 @@ if st.sidebar.button("🚀 Generar Predicción", type="primary"):
         segundos = int(prediccion_seg % 60)
         
         # Mostrar resultado
-        st.success("✅ Predicción generada con éxito")
+        st.success("Predicción generada con éxito ✅")
         
         col1, col2, col3 = st.columns(3)
         
         with col1:
             st.metric(
-                label="⏱️ Duración Estimada",
+                label="⏱ Duración Estimada",
                 value=f"{minutos} min {segundos} seg"
             )
         
         with col2:
             st.metric(
-                label="📊 Confianza del Modelo",
+                label="Confianza del Modelo",
                 value="98.1%",
                 help="Coeficiente de determinación R²"
             )
@@ -123,14 +123,14 @@ if st.sidebar.button("🚀 Generar Predicción", type="primary"):
         with col3:
             margen_error = 34  # MAE del modelo
             st.metric(
-                label="📉 Margen de Error",
+                label="Margen de Error",
                 value=f"± {margen_error} seg",
                 help="Error Absoluto Medio (MAE)"
             )
         
         # Recomendaciones
         st.divider()
-        st.subheader("📋 Recomendaciones Logísticas")
+        st.subheader("Recomendaciones Logísticas")
         
         tiempo_citacion = max(0, minutos - 15)
         
@@ -147,7 +147,7 @@ if st.sidebar.button("🚀 Generar Predicción", type="primary"):
         
         # Gráfico de distribución
         st.divider()
-        st.subheader("📈 Contexto Histórico")
+        st.subheader("Contexto Histórico")
         
         # Simular datos históricos similares (en producción, consultar BD)
         datos_similares = np.random.normal(prediccion_seg, 60, 100)
@@ -168,7 +168,7 @@ if st.sidebar.button("🚀 Generar Predicción", type="primary"):
 
 # Chatbot conversacional (sección adicional)
 st.divider()
-st.subheader("💬 Asistente Virtual")
+st.subheader("Asistente Virtual")
 
 with st.expander("Preguntas Frecuentes"):
     st.markdown("""
