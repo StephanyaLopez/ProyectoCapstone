@@ -263,16 +263,20 @@ Combates: 11
 
 **Output:**
 ```
-⏱️ Duración Estimada: 18 min 23 seg
-📊 Confianza: 97.77%
-📉 Margen de Error: ± 31 seg
+⏱ Duración Estimada: 18 min 23 seg
+ Confianza: 97.77%
+ Margen de Error: ± 31 seg
 
-📋 Recomendaciones:
-✅ Citar atletas 3 minutos antes
-✅ Reservar 28 minutos de buffer
-✅ Asignar 2 árbitros por tatami
+ Recomendaciones:
+ Citar atletas 3 minutos antes
+ Reservar 28 minutos de buffer
+ Asignar 2 árbitros por tatami
 ```
-
+<!-- ⏱️ -->
+<!-- 📊 -->
+<!-- 📉 -->
+<!-- 📋 -->
+<!-- ✅ -->
 ---
 
 <!-- 🧪 -->
@@ -369,11 +373,14 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 **¿Preguntas o colaboraciones?**
 
-- 📧 Email: [carla.lopez.arboleda@udla.edu.ec](mailto:carla.lopez.arboleda@udla.edu.ec)
+- Email: [carla.lopez.arboleda@udla.edu.ec](mailto:carla.lopez.arboleda@udla.edu.ec)
              [daniela.martinez.porte@udla.edu.ec](mailto:daniela.martinez.porte@udla.edu.ec)
-- 🐛 Issues: [GitHub Issues](https://github.com/TaiLung1978/CapstoneEstimacionKarate/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/TaiLung1978/CapstoneEstimacionKarate/discussions)
+- Issues: [GitHub Issues](https://github.com/TaiLung1978/CapstoneEstimacionKarate/issues)
+- Discussions: [GitHub Discussions](https://github.com/TaiLung1978/CapstoneEstimacionKarate/discussions)
 
+<!-- 📧 -->
+<!-- 🐛 -->
+<!-- 💬 -->
 ---
 
 <div align="center">
