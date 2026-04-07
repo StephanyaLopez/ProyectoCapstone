@@ -177,32 +177,39 @@ La aplicación se abrirá automáticamente en `http://localhost:8501`
 ```
 CapstoneEstimacionKarate/
 │
-├── 📊 Visualizaciones
+├── Visualizaciones
 │   ├── analisis_exploratorio.png      # EDA inicial
 │   ├── comparacion_modelos_cv.png     # Validación cruzada
 │   └── feature_importance.png         # Variables influyentes
 │
-├── 🤖 Modelo Entrenado
+├── Modelo Entrenado
 │   ├── modelo_random_forest_unsu.pkl  # Modelo serializado
 │   └── columnas_entrenamiento.pkl     # Configuración de features
 │
-├── 📓 Notebooks
+├── Notebooks
 │   └── PrediccionKarate.ipynb         # Pipeline completo ML
 │
-├── 🐍 Aplicación
+├── Aplicación
 │   └── app.py                         # Interfaz Streamlit
 │
-├── 📁 Datos
+├── Datos
 │   └── dataset_karate.csv             # 744 registros históricos
 │
-├── 🌐 Explicabilidad
+├── Explicabilidad
 │   └── lime_explicacion.html          # Análisis LIME interactivo
 │
-└── 📄 Documentación
+└── Documentación
     ├── README.md                      # Este archivo
     ├── requirements.txt               # Dependencias Python
     └── LICENSE                        # MIT License
 ```
+<!-- 📊 -->
+<!-- 🤖 -->
+<!-- 📓 -->
+<!-- 🐍 -->
+<!-- 📁 -->
+<!-- 🌐 -->
+<!-- 📄 -->
 
 ---
 
@@ -241,7 +248,8 @@ CapstoneEstimacionKarate/
    - Número de Competidores: 2-50
 
 2. **Generar predicción:**
-   - Click en "🚀 Generar Predicción"
+   - Click en "Generar Predicción"
+<!-- 🚀 -->
 
 3. **Interpretar resultados:**
    - Duración estimada (min:seg)
