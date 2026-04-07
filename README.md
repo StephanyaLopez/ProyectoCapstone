@@ -338,8 +338,8 @@ print(f"MAE CV: {-cv_scores.mean():.2f} ± {cv_scores.std():.2f}")
 ## Autores
 
 **Carla Stephanya López Arboleda**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/tu-perfil)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:tu-email@ejemplo.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/stephanya-l%C3%B3pez-9b734b207?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:stephanya.lopez@hotmail.com)
 
 **Daniela Stephania Martínez Porte**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/tu-perfil)
