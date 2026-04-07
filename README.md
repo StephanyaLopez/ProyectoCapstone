@@ -264,8 +264,8 @@ CapstoneEstimacionKarate/
 
 ---
 <!-- 📱 -->
-## Aplicación APP
-El proyecto incluye un motor de inferencia que permite interactuar con el modelo. La aplicación facilita a los organizadores:
+## Aplicación 
+El proyecto incluye una interfaz de usuario que permite interactuar con el modelo. La aplicación facilita a los organizadores:
 * Ingreso de parámetros de competencia en tiempo real.
 * Predicción automática de duración de bloques.
 * Visualización de la importancia de variables para justificar la planificación.
