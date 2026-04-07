@@ -57,7 +57,7 @@ Se identificó que los datos presentan una **Distribución Sesgada a la Derecha 
 * **Métricas de Éxito:** El modelo Random Forest alcanzó un **R² de 0.9814** y un **MAE de 33.81 segundos**.
 
 <!-- 📱 -->
-## 📱 Aplicación (App)
+## Aplicación APP
 El proyecto incluye un motor de inferencia que permite interactuar con el modelo. La aplicación facilita a los organizadores:
 * Ingreso de parámetros de competencia en tiempo real.
 * Predicción automática de duración de bloques.
