@@ -292,6 +292,8 @@ El proyecto incluye una interfaz de usuario que permite interactuar con el model
    - Margen de error (±31.85 seg)
    - Recomendaciones logísticas automáticas
 
+Link Aplicativo: https://proyectocapstone-afjavnixtl95egh4fhvfot.streamlit.app
+
 ### Ejemplo Real
 
 **Input:**
