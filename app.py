@@ -35,7 +35,7 @@ except Exception as e:
     st.stop()
 
 # Sidebar: Configuración
-st.sidebar.header("Configuración de Categoría ⚙️")
+st.sidebar.header("⚙️ Configuración de Categoría")
 
 modalidad = st.sidebar.selectbox(
     "Modalidad", 
