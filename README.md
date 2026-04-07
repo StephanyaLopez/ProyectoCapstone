@@ -7,6 +7,8 @@
 
 # 🥋 Sistema de Apoyo a la Planificación Logística - Karate-Do
 
+Este repositorio contiene el desarrollo técnico del **Sistema Inteligente de Apoyo a la Toma de Decisiones** diseñado para optimizar la planificación logística en eventos deportivos de Karate-Do mediante modelos predictivos de Inteligencia Artificial.
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
