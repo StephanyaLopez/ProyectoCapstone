@@ -11,10 +11,10 @@ Este repositorio contiene el desarrollo técnico del **Sistema Inteligente de Ap
 
 <div align="center">
 
-"![Python](https://img.shields.io/badge/Python-3.11-blue.svg)"
-"![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.4.0-orange.svg)"
-"![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0-red.svg)"
-"![License](https://img.shields.io/badge/License-MIT-green.svg)"
+<!-- ![Python](https://img.shields.io/badge/Python-3.11-blue.svg) -->
+<!-- ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.4.0-orange.svg) -->
+<!-- ![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0-red.svg) -->
+<!-- ![License](https://img.shields.io/badge/License-MIT-green.svg) -->
 
 **Sistema inteligente de apoyo a la toma de decisiones basado en modelos predictivos de Inteligencia Artificial para la optimización de la planificación logística en eventos deportivos de Karate-Do**
 
