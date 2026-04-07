@@ -56,13 +56,6 @@ Se identificó que los datos presentan una **Distribución Sesgada a la Derecha 
 * **Variables Clave:** `num_competidores`, `num_combates`, `edad_max`, `modalidad`, `sexo` y `nivel`.
 * **Métricas de Éxito:** El modelo Random Forest alcanzó un **R² de 0.9814** y un **MAE de 33.81 segundos**.
 
-<!-- 📱 -->
-## Aplicación APP
-El proyecto incluye un motor de inferencia que permite interactuar con el modelo. La aplicación facilita a los organizadores:
-* Ingreso de parámetros de competencia en tiempo real.
-* Predicción automática de duración de bloques.
-* Visualización de la importancia de variables para justificar la planificación.
-
 ---
 
 <!-- 🎯 -->
@@ -270,6 +263,12 @@ CapstoneEstimacionKarate/
 - **Joblib:** Persistencia de modelos entrenados
 
 ---
+<!-- 📱 -->
+## Aplicación APP
+El proyecto incluye un motor de inferencia que permite interactuar con el modelo. La aplicación facilita a los organizadores:
+* Ingreso de parámetros de competencia en tiempo real.
+* Predicción automática de duración de bloques.
+* Visualización de la importancia de variables para justificar la planificación.
 
 <!-- 📖 -->
 ## Uso de la Aplicación
