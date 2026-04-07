@@ -380,7 +380,7 @@ print(f"MAE CV: {-cv_scores.mean():.2f} ± {cv_scores.std():.2f}")
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/daniela-martínez-porte?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:danysmartinezp@hotmail.es)
 
-### Asesor Académico
+### Tutor Académico
 **Víctor Gómez Regalado**  
 Universidad de Las Américas - Maestría en Inteligencia Artificial Aplicada
 
