@@ -30,7 +30,7 @@ Este sistema utiliza **Machine Learning** para predecir con alta precisión la d
 
 - **Retrasos históricos:** 2-4 horas por torneo
 - **Impacto:** 680+ participantes anuales afectados
-- **Causa raíz:** Estimaciones empíricas sin sustento estadístico
+- **Causa de raíz:** Estimaciones empíricas sin sustento estadístico
 
 ### 💡 Solución Desarrollada
 
