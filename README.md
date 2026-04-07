@@ -76,7 +76,7 @@ Mejora:                       ↓ 70.6%          | ↑ 9.8%
 ### Pasos de Instalación
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/TaiLung1978/CapstoneEstimacionKarate.git
+git clone https://github.com/StephanyaLopez/ProyectoCapstone.git
 cd CapstoneEstimacionKarate
 
 # 2. Crear entorno virtual (recomendado)
