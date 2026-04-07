@@ -24,17 +24,20 @@
 
 ---
 
-## 📋 Descripción del Proyecto
+<!-- 📋 -->
+## Descripción del Proyecto
 
 Este sistema utiliza **Machine Learning** para predecir con alta precisión la duración de categorías en torneos de Karate-Do, resolviendo el problema de retrasos acumulados (20-35%) que afectan a organizadores, atletas y familias.
 
-### 🎯 Problema Identificado
+<!-- 🎯 -->
+### Problema Identificado
 
 - **Retrasos históricos:** 2-4 horas por torneo
 - **Impacto:** 680+ participantes anuales afectados
 - **Causa raíz:** Estimaciones empíricas sin sustento estadístico
 
-### 💡 Solución Desarrollada
+<!-- 💡 -->
+### Solución Desarrollada
 
 Sistema de Apoyo a la Toma de Decisiones (DSS) basado en:
 - **Modelo:** Random Forest Regressor
@@ -43,8 +46,8 @@ Sistema de Apoyo a la Toma de Decisiones (DSS) basado en:
 - **Interfaz:** Streamlit Low-Code
 
 ---
-
-## 🏆 Resultados Clave
+<!-- 🏆 -->
+## Resultados Clave
 
 | Métrica | Valor Obtenido | Objetivo | Estado |
 |---------|----------------|----------|--------|
@@ -53,14 +56,15 @@ Sistema de Apoyo a la Toma de Decisiones (DSS) basado en:
 | **RMSE** | 67.08 seg | - | ✅ Bajo |
 | **Validación Cruzada** | 34.65 ± 5.50 seg | Estable | ✅ Consistente |
 
-### 📊 Comparativa con Baseline
+<!-- 📊 -->
+### Comparativa con Baseline
 ```
 Regresión Lineal (Baseline):  MAE = 108.39 seg | R² = 0.89
 Random Forest (Propuesto):    MAE = 31.85 seg  | R² = 0.9777
 Mejora:                       ↓ 70.6%          | ↑ 9.8%
 ```
-
-### 💰 Impacto Operativo
+<!-- 💰 -->
+### Impacto Operativo
 
 - **Reducción de retrasos:** 85% (de 2-4h a 25-30 min)
 - **Ahorro estimado:** 3 horas de sobrecosto de alquiler por torneo
@@ -68,7 +72,8 @@ Mejora:                       ↓ 70.6%          | ↑ 9.8%
 
 ---
 
-## 🚀 Instalación y Ejecución
+<!-- 🚀 -->
+## Instalación y Ejecución
 
 ### Prerrequisitos
 
@@ -101,7 +106,8 @@ La aplicación se abrirá automáticamente en `http://localhost:8501`
 
 ---
 
-## 📊 Metodología
+<!-- 📊 -->
+## Metodología
 
 ### CRISP-ML(Q) - Proceso Iterativo
 ```
@@ -149,7 +155,8 @@ La aplicación se abrirá automáticamente en `http://localhost:8501`
 
 ---
 
-## 🖼️ Capturas de Pantalla
+<!-- 🖼️ -->
+## Capturas de Pantalla
 
 ### Interfaz Principal
 ![Interfaz](docs/screenshots/interfaz_inicial.png)
@@ -165,7 +172,8 @@ La aplicación se abrirá automáticamente en `http://localhost:8501`
 
 ---
 
-## 📁 Estructura del Proyecto
+<!-- 📁 -->
+## Estructura del Proyecto
 ```
 CapstoneEstimacionKarate/
 │
@@ -198,7 +206,8 @@ CapstoneEstimacionKarate/
 
 ---
 
-## 🔬 Tecnologías Utilizadas
+<!-- 🔬 -->
+## Tecnologías Utilizadas
 
 ### Machine Learning
 - **Scikit-Learn 1.4.0:** Random Forest, métricas, validación cruzada
@@ -219,7 +228,8 @@ CapstoneEstimacionKarate/
 
 ---
 
-## 📖 Uso de la Aplicación
+<!-- 📖 -->
+## Uso de la Aplicación
 
 ### Caso de Uso: Predicción de Categoría
 
@@ -265,7 +275,8 @@ Combates: 11
 
 ---
 
-## 🧪 Validación del Modelo
+<!-- 🧪 -->
+## Validación del Modelo
 
 ### Protocolo de Testing
 ```python
@@ -292,7 +303,8 @@ print(f"MAE CV: {-cv_scores.mean():.2f} ± {cv_scores.std():.2f}")
 
 ---
 
-## 🔮 Trabajo Futuro
+<!-- 🔮 -->
+## Trabajo Futuro
 
 ### Mejoras Técnicas Planificadas
 
@@ -310,7 +322,8 @@ print(f"MAE CV: {-cv_scores.mean():.2f} ± {cv_scores.std():.2f}")
 
 ---
 
-## 👥 Autores
+<!-- 👥 -->
+## Autores
 
 **Carla Stephanya López Arboleda**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/tu-perfil)
@@ -326,7 +339,8 @@ Universidad de Las Américas - Maestría en Inteligencia Artificial Aplicada
 
 ---
 
-## 🏫 Institución
+<!-- 🏫 -->
+## Institución
 
 **Universidad de Las Américas (UDLA)**  
 Facultad de Ingeniería y Ciencias Aplicadas  
@@ -335,7 +349,8 @@ Quito, Ecuador | 2026
 
 ---
 
-## 🙏 Agradecimientos
+<!-- 🙏 -->
+## Agradecimientos
 
 - **Club de Karate-Do UNSU:** Por proporcionar datos históricos reales
 - **RootCorp Cia. Ltda.:** Soporte técnico y validación del prototipo
@@ -343,7 +358,8 @@ Quito, Ecuador | 2026
 
 ---
 
-## 📄 Licencia
+<!-- 📄 -->
+## Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
