@@ -177,7 +177,7 @@ with st.expander("Preguntas Frecuentes"):
     considerando modalidad, nivel, sexo, edad y número de competidores.
     
     **¿Qué tan preciso es el sistema?**  
-    El modelo tiene un R² de 98.1%, con un error promedio de 33.8 segundos.
+    El modelo tiene un R² de 97.7%, con un error promedio de 33.8 segundos.
     
     **¿Puedo confiar en las predicciones?**  
     Sí, pero siempre agrega un buffer de +10 minutos para imprevistos.
