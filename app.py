@@ -17,7 +17,7 @@ Esta herramienta utiliza **Inteligencia Artificial (Random Forest)** entrenado
 con 744 registros históricos (2023-2025) para predecir la duración de categorías 
 y optimizar la logística de torneos.
 
-**Precisión del modelo**: R² = 98.1% | Error promedio = 33.8 segundos
+**Precisión del modelo**: R² = 97.7% | Error promedio = 31.8 segundos
 """)
 
 # Cargar recursos
