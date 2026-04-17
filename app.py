@@ -116,7 +116,7 @@ if st.sidebar.button("Generar Predicción", type="primary"):
         with col2:
             st.metric(
                 label="Confianza del Modelo",
-                value="98.1%",
+                value="97.7%",
                 help="Coeficiente de determinación R²"
             )
         
