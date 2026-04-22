@@ -121,7 +121,7 @@ if st.sidebar.button("Generar Predicción", type="primary"):
             )
         
         with col3:
-            margen_error = 34  # MAE del modelo
+            margen_error = 32  # MAE del modelo
             st.metric(
                 label="Margen de Error",
                 value=f"± {margen_error} seg",
